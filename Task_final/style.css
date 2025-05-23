@@ -1,0 +1,132 @@
+/* Общие стили */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #2E3532;
+    background-color: #f4f7f9;
+}
+
+/* Шапка сайта */
+.header {
+    background-color: #D2D4C8;
+    text-align: center;
+    padding: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+body > section > header {
+    margin-bottom: 16px;
+}
+
+body > section > header img {
+    max-width: 32px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body > section > header h1 {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    color: #2E3532;
+}
+
+a {
+    color: #d47739;
+}
+
+/* Основной контент */
+main {
+    margin: 0 auto 32px;
+    max-width: 720px;
+}
+
+main > section {
+    margin-bottom: 16px;
+    padding-top: 16px;
+}
+
+h2 {
+    color: #2E3532;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+}
+
+section article {
+    background-color: #E0E2DB;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+main > section > ul > a {
+display: flex; 
+justify-content: center; 
+align-items: center;
+}
+
+main > section img {
+    width: 200px;
+    float: right;
+    margin: 16px 0 16px 16px;
+    border-radius: 8px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Подвал */
+footer {
+    background-color: #2E3532;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-top: 32px;
+}
+
+.name {
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+nav ul{
+    display: flex;
+    gap:18px;
+    justify-content: center; 
+    list-style-type: none;
+}
+
+.button{
+    text-decoration: none;
+    display: flex; 
+    justify-content: center; 
+    padding:12px;
+    box-sizing: border-box;
+    background-color: #f4f7f9;
+    text-decoration: none;
+    color: #2E3532;
+    border-radius: 16px;
+}
+.button:hover{
+    background-color: #d47739;
+}
+.button:active{
+    background-color: #2E3532;
+    color: #d47739;
+}
